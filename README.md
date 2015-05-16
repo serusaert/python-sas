@@ -18,6 +18,7 @@ Other features:
 * Prepend or append specified SAS code to all programs (for example, pre-pend with a set-up program)
 * Run SAS code from string or file
 * Configurable temp file location
+* Save and inspect WORK library between run method calls
 
 Process:
 
@@ -30,5 +31,8 @@ There appears to be interest in an analytical tool in Python that uses SAS. PySA
 Other uses:
 
 PySAS can be used for writing very insecure CGI scripts. I find it useful on my personal webserver (locked down to local-host) for developing data management tools such as data dictionaries, data viewers, etc..
+
+
+
 
 
